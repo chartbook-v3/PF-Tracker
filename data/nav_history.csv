@@ -1,0 +1,2 @@
+trade_date,day_number,port_nav,eqty_nav,invested_pct,cash_pct,port_daily_pct,port_mtd_pct,port_cum_pct,eqty_daily_pct,eqty_mtd_pct,eqty_cum_pct,spy_nav,spy_daily_pct,spy_cum_pct,alpha_spy_daily_pct,alpha_spy_cum_pct,qqq_nav,qqq_daily_pct,qqq_cum_pct,alpha_qqq_daily_pct,alpha_qqq_cum_pct,max_dd_pct,ann_vol_20d_pct,adv_count,dec_count,flat_count
+2026-11-24,1,98.215469,97.055229,59.8841,40.1159,-1.784531,-1.784531,-1.784531,-2.944771,-2.944771,-2.944771,99.514053,-0.485947,-0.485947,-1.298584,-1.298584,98.013908,-1.986092,-1.986092,0.201561,0.201561,-1.784531,,10,9,0
