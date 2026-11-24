@@ -1,0 +1,46 @@
+# Portfolio Tracker Configuration
+#
+# Weights are expressed in readable percentages (e.g., 7.0 = 7.0% of total portfolio).
+# The unallocated remainder (100.0 - sum(weights)) is automatically held as Cash.
+#
+# Buy & Hold mode:
+#   Virtual units are initialized at the prior NYSE close before inception_date
+#   (Base NAV = 100.0). Weights drift naturally with market prices until a new
+#   dated entry is appended under `snapshots`.
+#
+# To record a future rebalance:
+#   Append a new item under `snapshots` with a later `effective_date` (YYYY-MM-DD)
+#   and the new target percentage weights. The engine rebalances virtual units at
+#   the prior trading day's closing NAV and chains cumulative NAV seamlessly.
+
+inception_date: "2026-11-24"
+base_nav: 100.0
+rebalance_mode: "buy_and_hold"
+cash_yield_annual: 0.0  # Annualized cash yield as decimal (0.0 = 0.0%)
+
+benchmarks:
+  - SPY
+  - QQQ
+
+snapshots:
+  - effective_date: "2026-11-24"
+    weights:
+      GKOS: 7.0
+      APPN: 4.0
+      BRZE: 4.0
+      LFST: 4.0
+      LSCC: 4.0
+      MPWR: 4.0
+      MU: 4.0
+      SN: 4.0
+      U: 4.0
+      CRWD: 4.0
+      MXL: 4.0
+      CLF: 1.7
+      CORZ: 1.7
+      SWKS: 1.7
+      OKTA: 1.7
+      ASO: 1.7
+      CROX: 1.7
+      BOX: 1.7
+      AMRX: 1.7
