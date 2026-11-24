@@ -1,9 +1,7 @@
 name: Daily Portfolio Report
 
 on:
-  schedule:
-    - cron: "35 20 * * 1-5" # 16:35 EDT
-    - cron: "35 21 * * 1-5" # 16:35 EST
+
   workflow_dispatch:
     inputs:
       dry_run:
